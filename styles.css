@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(59, 58, 38);
+    top: 0;
+    zoom: 1.15;
+
+}
+header{
+    top: 0;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+header h2{
+    font-weight: 600;
+    font-size: 2.7rem;
+    margin-bottom:5px ;
+    color: wheat;
+}
+header p{
+    margin-top: 1px;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: aquamarine;
+}
+form{
+    text-align: center;
+    padding: 2rem;
+    background-color: blueviolet;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+}
+.f-group:not(:last-child){
+    margin-bottom:35px
+    
+}.f-group label{
+    padding: 1.3rem;
+    font-size: 1.4rem;
+    text-align: left;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 10px;
+    
+
+    
+}
+.f-group input:not([type="radio"], [type="checkbox"]),
+.f-group textarea, .f-group select{
+    margin-top: 10px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 0;
+}
+.f-group input:is([type="radio"],[type="checkbox"]){
+    zoom: 2.1;
+}
+.f-group-radio{
+    margin-top: 25px;
+    margin-left: 30px;
+   
+} 
+.f-group button{
+    background-color: green;
+    width: 100%;
+    padding: 0.7rem;
+    border: 0;
+    border-radius: 7px;
+    font-size: 1.4rem;
+    color: white;
+}
+.f-group textarea{
+    max-width: 700px;
+    margin: 0 auto;
+}
